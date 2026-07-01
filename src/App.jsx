@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 
-import Summary from './Summary';
+// import Summary from './Summary';
+
+import Summaryy from './Summaryy';
 
 function App() {
   const Appstyle = styled.div``;
@@ -9,7 +11,7 @@ function App() {
   return (
     <>
       <Appstyle>
-        <Summary />
+        <Summaryy />
       
       </Appstyle>
     </>
