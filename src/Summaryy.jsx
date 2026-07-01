@@ -230,6 +230,7 @@ function Summary() {
     .captureWrap {
       display: block;
     }
+   
 
     .slipFrame {
       background: ${ACCENT};
@@ -623,21 +624,23 @@ function Summary() {
               <div className="slipCard">
                 <Watermark />
                 <ZigzagEdge />
-
+<div className="headerbox">
                 <div className="logoHeader">
                   <div className="logoMark">L</div>
                   <div className="logoText">
                     <span className="logoTitle">Easy Money</span>
                     <span className="logoSub">by tops money</span>
                   </div>
+                
                 </div>
 
-                <div className="eyebrowRow">
-                  <span className="eyebrow">สรุปสินเชื่อของฉัน</span>
-                  <span className="stamp">
-                    <IconShieldCheck /> อนุมัติแล้ว
-                  </span>
+
+               
                 </div>
+
+           
+
+             
 
                 <div className="hero">
                   <p className="heroAmount">฿{formatMoneyWithoutDecimal(principal)}</p>
